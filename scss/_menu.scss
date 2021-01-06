@@ -21,7 +21,7 @@
           .btn-line{
               //line 1 Rotate
                 &:nth-child(1){
-                    transform: rotate(45deg) translate(5px 5px);
+                    transform: rotate(45deg) translate(5px, 5px);
                 }
 
               //line 2 Hide
@@ -32,7 +32,7 @@
               //line 3 Rotate
 
               &:nth-child(3){
-                transform: rotate(-45deg) translate(7px -6px);
+                transform: rotate(-45deg) translate(7px, -6px);
             }
           }
       }
